@@ -60,7 +60,6 @@ with col2:
     )
     st.write("📫", EMAIL)
 
-
 # --- SOCIAL LINKS ---
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
@@ -74,7 +73,6 @@ st.subheader("Academic Article Publication History")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
-st.divider()
 
 
 # --- SKILLS ---
@@ -86,8 +84,6 @@ st.write(
 - 🗄️ Databases: Postgres, MySQL
 """
 )
-st.divider()
-
 
 # --- Qualification, Award, & Grant ---
 st.write('\n')
