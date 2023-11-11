@@ -110,9 +110,11 @@ st.write("🏆", "**Doctoral education at Tokyo Institute of Technology**")
 st.write("09/2022 - Present")
 st.write(
 """
-- [1] Joint Research with company Sony: Analyse the sales data of Sony’s products, such as TVs and cameras, and predict the units and price of sales to solve the supply chain problem.
-- [2] Internship of company Sony: Develop a website to interact with and present the result of the data analysis.
-- [3] Major GPA so far: 3.8/4.5.
+- [Internship, 2023/11-present] 5. Internship of company Sony: Develop a website to interact with and present the result of the data analysis.
+- [Joint Research, 2023/4-present] 4. Joint Research with company Sony: Analyse the sales data of Sony’s products, such as TVs and cameras, and predict the units and price of sales to solve the supply chain problem.
+- [Presentation, 2023/9] 3. Gave a presentation to Physical Society of Japan (日本物理学会) about 'Electric circuit network description of urban human mobility based on GPS data.'
+- [Presentation, 2023/8] 2. Gave a presentation to Statphys28 (International academic conference) about 'An analysis of human flow pattern based on Revised Electric Circuit Model.'
+- [GPA] 1. Major GPA so far: 3.8/4.5.
 """
 )
 
