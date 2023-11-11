@@ -141,3 +141,13 @@ st.write(
 - [5] Major GPA: 88/100, top 10%.
 """
 )
+
+# --- subject in charge:
+st.write('\n')
+st.write("**Subjects good at teach (担当できる科目)**")
+st.write(
+"""
+1. Mathematics series: Calculus, Linear Algebra, and Statistics. (微積分、線形代数、及び統計学)
+2. Computer Science series: Python Programming, Java Programming, Data Structure and Algorithm, Database, and Machine Learning. (Python プログラミング、Java プログラミング、データ構造とアルゴリズム、データベース、及び機械学習)
+"""
+)
