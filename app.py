@@ -26,7 +26,7 @@ SOCIAL_MEDIA = {
     "My Laboratory": "http://www.smp.dis.titech.ac.jp/en/"
 }
 PROJECTS = {
-    "[5] Zhong Zhihua, Hideki Takayasu, Misako Takayasu. Electric circuit network description of urban human mobility based on GPS data (under peer review)": "",
+    "[5] Zhong Zhihua, Hideki Takayasu, Misako Takayasu. Novel approaches to urban human mobility: a physical analogy of electric circuit network and resulting gravity relations based on GPS data": "",
     "[4] Gao M*, Zhong Z*, Yue Y, Liu F. Correlation between glycaemic variability and prognosis in diabetic patients with CKD. Endokrynol Pol. 73(6):947-953 (2022).": "https://journals.viamedica.pl/endokrynologia_polska/article/view/EP.a2022.0092/70385",
     "[3] Liu, S.*, Zhong, Z.* & Liu, F. Prognostic value of hyperuricemia for patients with sepsis in the intensive care unit [J]. Sci Rep 12, 1070 (2022).": "https://www.nature.com/articles/s41598-022-04862-3",
     "[2] Huang Y*, Zhong Z*, Liu F. The Association of Coagulation Indicators and Coagulant Agents With 30-Day Mortality of Critical Diabetics [J]. Clin Appl Thromb Hemost. 27:10760296211026385 (2021 Jan-Dec).": "https://journals.sagepub.com/doi/full/10.1177/10760296211026385",
