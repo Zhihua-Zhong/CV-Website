@@ -147,7 +147,7 @@ st.write('\n')
 st.write("**Subjects good at teach (担当できる科目)**")
 st.write(
 """
-1. Mathematics series: Calculus, Linear Algebra, and Statistics. (微積分、線形代数、及び統計学)
-2. Computer Science series: Python Programming, Java Programming, Data Structure and Algorithm, Database, and Machine Learning. (Python プログラミング、Java プログラミング、データ構造とアルゴリズム、データベース、及び機械学習)
+1. Mathematics series: Calculus, Linear Algebra, and Statistics. (数学系: 微積分、線形代数、及び統計学)
+2. Computer Science series: Python Programming, Java Programming, Data Structure and Algorithm, Database, and Machine Learning. (情報工学系: Python プログラミング、Java プログラミング、データ構造とアルゴリズム、データベース、及び機械学習)
 """
 )
