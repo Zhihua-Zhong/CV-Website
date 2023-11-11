@@ -144,9 +144,8 @@ st.write(
 
 # --- subject in charge:
 st.write('\n')
-st.subheader("Experience History")
+st.subheader("**Subjects good at teach (担当できる科目)**")
 st.write("---")
-st.write("**Subjects good at teach (担当できる科目)**")
 st.write(
 """
 1. Mathematics series: Calculus, Linear Algebra, and Statistics. (数学系: 微積分、線形代数、及び統計学)
