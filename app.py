@@ -80,8 +80,8 @@ st.subheader("Presentation on Academic Conference")
 st.write("---")
 st.write(
 """
-[2]. Electric circuit network description of urban human mobility based on GPS data, Physical Society of Japan (日本物理学会; 2023/9).
-[1]. An analysis of human flow pattern based on Revised Electric Circuit Model, Statphys28 (2023/8).
+- [2]. Electric circuit network description of urban human mobility based on GPS data, Physical Society of Japan (日本物理学会; 2023/9).
+- [1]. An analysis of human flow pattern based on Revised Electric Circuit Model, Statphys28 (2023/8).
 """
 )
 
