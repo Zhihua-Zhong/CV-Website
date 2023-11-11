@@ -81,7 +81,7 @@ st.subheader("Hard Skills")
 st.write(
 """
 - 💻 Programming: Python (Scikit-learn, Pandas, Streamlit), Java (Spring)
-- 📚 Speciality: Machine learning, Deep learning, Statistics
+- 📚 Speciality: Algorithm, including: Machine learning, Deep learning, and Statistics
 - 🗄️ Databases: Postgres, MySQL
 """
 )
@@ -90,23 +90,15 @@ st.write(
 st.write('\n')
 st.subheader("Grant, Award, & Qualification")
 st.write(
-    """
+"""
 - 🏆️ [Grant] 1: JSPS (Japan Society for the Promotion of Science) Research Fellowship for Young Scientists (2023, Doctor, Japan)
 - 🏆️ [Grant] 2: "Support for Pioneering Research Initiated by the Next Generation" by Japan Science and Technology Agency (Grant Number JPMJSP2106; 2022, Doctor, Japan)
 - 🏆️ [Award] 3: Software Copyright (2021, Master, China)
 - 🏆️ [Award] 4: China National Scholarship for graduate students (2021, Master, China)
 - 🏆️ [Certificate] 5: TOEIC (English ability): 810/1000 (2021, Master)
 - 🏆️ [Certificate] 6: JLPT N1 (Japanese ability): 140/180 (2021, Master)
-
-
 """
 )
-
-
-
-
-
-
 
 # --- ACADEMIC ARTICLE PUBLICATION HISTORY ---
 st.write('\n')
@@ -118,9 +110,9 @@ st.write("🏆", "**Doctoral education at Tokyo Institute of Technology**")
 st.write("09/2022 - Present")
 st.write(
 """
-- [1] Analyse the sales data of Sony’s products, such as TV and camera, and predict the units and price of sales to solve the supply chain problem.
-- [2] Sony internship.
-- [3] Major GPA so far: 3.8/4.5
+- [1] Joint Research with company Sony: Analyse the sales data of Sony’s products, such as TVs and cameras, and predict the units and price of sales to solve the supply chain problem.
+- [2] Internship of company Sony: Develop a website to interact with and present the result of the data analysis.
+- [3] Major GPA so far: 3.8/4.5.
 """
 )
 
@@ -130,10 +122,10 @@ st.write("🏆", "**Master's education at Jinan University**")
 st.write("09/2019 - 07/2022")
 st.write(
 """
-- [1] Developed a machine learning model to predict the probability of gaining a certain disease based on the biochemical data from the patients. (Publication 1)
-- [2] Discovered the relationship between biochemical indexes, drug, and death ratio to give people a deeper understanding of the diseases. (Publication 2-4)
+- [1] Developed a machine learning model to predict the probability of gaining a certain disease based on the biochemical data from the patients (Publication [1]). 
+- [2] Discovered the relationship between biochemical indexes, drug, and death ratio to give people a deeper understanding of diseases in medical science (Publication [2-4]).
 - [3] Developed a Windows 10 software for paper [1] based on C++ and Python.
-- [4] Developed a website to realise real-time prediction for patients, based on Java and Python
-- [5] Major GPA: 88/100, top 10%
+- [4] Developed a website using Java and Python to implement real-time patient prediction for paper[1].
+- [5] Major GPA: 88/100, top 10%.
 """
 )
