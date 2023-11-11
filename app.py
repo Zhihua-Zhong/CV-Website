@@ -80,8 +80,8 @@ st.subheader("Presentation on Academic Conference")
 st.write("---")
 st.write(
 """
-- [2] Conference: Physical Society of Japan (日本物理学会); Title: 'Electric circuit network description of urban human mobility based on GPS data'; Date: 2023/8
-- [1] Conference(International): Statphys28; Title: 'An analysis of human flow pattern based on Revised Electric Circuit Model'; Date: 2023/9
+[2] Conference: Physical Society of Japan (日本物理学会); Title: 'Electric circuit network description of urban human mobility based on GPS data'; Date: 2023/8
+[1] Conference(International): Statphys28; Title: 'An analysis of human flow pattern based on Revised Electric Circuit Model'; Date: 2023/9
 """
 )
 
