@@ -17,7 +17,7 @@ PAGE_ICON = ":wave:"
 NAME = "ZHihua Zhong"
 DESCRIPTION = """
 Doctoral student at ***Tokyo Institude of Technology***
-/n JSPS DC 日本学術振興特別研究員
+\n JSPS (DC) 日本学術振興特別研究員
 \n Major: School of Computing, Artificial Intelligence
 """
 EMAIL = "zhong.z.af@m.titech.ac.jp"
