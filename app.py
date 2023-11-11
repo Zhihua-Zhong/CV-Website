@@ -26,11 +26,11 @@ SOCIAL_MEDIA = {
     "My Laboratory": "http://www.smp.dis.titech.ac.jp/en/"
 }
 PROJECTS = {
-    "[5] Zhong Zhihua, Hideki Takayasu, Misako Takayasu. Novel approaches to urban human mobility: a physical analogy of electric circuit network and resulting gravity relations based on GPS data": "",
-    "[4] Gao M*, Zhong Z*, Yue Y, Liu F. Correlation between glycaemic variability and prognosis in diabetic patients with CKD. Endokrynol Pol. 73(6):947-953 (2022).": "https://journals.viamedica.pl/endokrynologia_polska/article/view/EP.a2022.0092/70385",
-    "[3] Liu, S.*, Zhong, Z.* & Liu, F. Prognostic value of hyperuricemia for patients with sepsis in the intensive care unit [J]. Sci Rep 12, 1070 (2022).": "https://www.nature.com/articles/s41598-022-04862-3",
-    "[2] Huang Y*, Zhong Z*, Liu F. The Association of Coagulation Indicators and Coagulant Agents With 30-Day Mortality of Critical Diabetics [J]. Clin Appl Thromb Hemost. 27:10760296211026385 (2021 Jan-Dec).": "https://journals.sagepub.com/doi/full/10.1177/10760296211026385",
-    "[1] Zhong, Z., Yuan, X., Liu, S. et al. Machine learning prediction models for prognosis of critically ill patients after open-heart surgery [J]. Sci Rep 11, 3384 (2021).": "https://www.nature.com/articles/s41598-021-83020-7",
+    "[5]. Zhong Zhihua, Hideki Takayasu, Misako Takayasu. Novel approaches to urban human mobility: a physical analogy of electric circuit network and resulting gravity relations based on GPS data": "",
+    "[4]. Gao M*, Zhong Z*, Yue Y, Liu F. Correlation between glycaemic variability and prognosis in diabetic patients with CKD. Endokrynol Pol. 73(6):947-953 (2022).": "https://journals.viamedica.pl/endokrynologia_polska/article/view/EP.a2022.0092/70385",
+    "[3]. Liu, S.*, Zhong, Z.* & Liu, F. Prognostic value of hyperuricemia for patients with sepsis in the intensive care unit [J]. Sci Rep 12, 1070 (2022).": "https://www.nature.com/articles/s41598-022-04862-3",
+    "[2]. Huang Y*, Zhong Z*, Liu F. The Association of Coagulation Indicators and Coagulant Agents With 30-Day Mortality of Critical Diabetics [J]. Clin Appl Thromb Hemost. 27:10760296211026385 (2021 Jan-Dec).": "https://journals.sagepub.com/doi/full/10.1177/10760296211026385",
+    "[1]. Zhong, Z., Yuan, X., Liu, S. et al. Machine learning prediction models for prognosis of critically ill patients after open-heart surgery [J]. Sci Rep 11, 3384 (2021).": "https://www.nature.com/articles/s41598-021-83020-7",
 }
 
 
@@ -80,8 +80,8 @@ st.subheader("Presentation on Academic Conference")
 st.write("---")
 st.write(
 """
-[2] Conference: Physical Society of Japan (日本物理学会); Title: 'Electric circuit network description of urban human mobility based on GPS data'; Date: 2023/8
-[1] Conference(International): Statphys28; Title: 'An analysis of human flow pattern based on Revised Electric Circuit Model'; Date: 2023/9
+[2]. Electric circuit network description of urban human mobility based on GPS data, Physical Society of Japan (日本物理学会; 2023/9).
+[1]. An analysis of human flow pattern based on Revised Electric Circuit Model, Statphys28 (2023/8).
 """
 )
 
