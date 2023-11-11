@@ -144,6 +144,8 @@ st.write(
 
 # --- subject in charge:
 st.write('\n')
+st.subheader("Experience History")
+st.write("---")
 st.write("**Subjects good at teach (担当できる科目)**")
 st.write(
 """
