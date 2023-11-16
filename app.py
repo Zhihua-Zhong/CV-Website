@@ -4,14 +4,23 @@ import streamlit as st
 from PIL import Image
 
 
-# --- PATH SETTINGS ---
+# path setting
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 
+# initialization, load css, pdf, and profile picture
+st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
-# --- GENERAL SETTINGS ---
+# --- LOAD CSS, PDF & PROFIL PIC ---
+with open(css_file) as f:
+    st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
+with open(resume_file, "rb") as pdf_file:
+    PDFbyte = pdf_file.read()
+profile_pic = Image.open(profile_pic)
+
+# general setting
 PAGE_TITLE = "Digital CV | Zhihua Zhong"
 PAGE_ICON = ":wave:"
 NAME = "ZHihua Zhong"
@@ -32,18 +41,6 @@ PROJECTS = {
     "[2]. Huang Y*, Zhong Z*, Liu F. The Association of Coagulation Indicators and Coagulant Agents With 30-Day Mortality of Critical Diabetics [J]. Clin Appl Thromb Hemost. 27:10760296211026385 (2021 Jan-Dec).": "https://journals.sagepub.com/doi/full/10.1177/10760296211026385",
     "[1]. Zhong, Z., Yuan, X., Liu, S. et al. Machine learning prediction models for prognosis of critically ill patients after open-heart surgery [J]. Sci Rep 11, 3384 (2021).": "https://www.nature.com/articles/s41598-021-83020-7",
 }
-
-
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
-
-
-# --- LOAD CSS, PDF & PROFIL PIC ---
-with open(css_file) as f:
-    st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
-with open(resume_file, "rb") as pdf_file:
-    PDFbyte = pdf_file.read()
-profile_pic = Image.open(profile_pic)
-
 
 # --- HERO SECTION ---
 col1, col2 = st.columns([1, 2], gap="small")
