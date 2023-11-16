@@ -11,6 +11,7 @@ resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 
 # initialize streamlit, load css, pdf, and profile picture
+PAGE_TITLE = "Digital CV | Zhihua Zhong"
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
@@ -19,7 +20,6 @@ with open(resume_file, "rb") as pdf_file:
 profile_pic = Image.open(profile_pic)
 
 # basic information section
-PAGE_TITLE = "Digital CV | Zhihua Zhong"
 PAGE_ICON = ":wave:"
 NAME = "ZHihua Zhong"
 DESCRIPTION = """
