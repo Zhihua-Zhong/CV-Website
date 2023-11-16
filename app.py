@@ -10,17 +10,15 @@ css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 
-# initialization, load css, pdf, and profile picture
+# initialize streamlit, load css, pdf, and profile picture
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
-
-# --- LOAD CSS, PDF & PROFIL PIC ---
 with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 profile_pic = Image.open(profile_pic)
 
-# general setting
+# basic information section
 PAGE_TITLE = "Digital CV | Zhihua Zhong"
 PAGE_ICON = ":wave:"
 NAME = "ZHihua Zhong"
@@ -30,10 +28,6 @@ Doctoral student at ***Tokyo Institude of Technology***
 \n Major: School of Computing, Artificial Intelligence
 """
 EMAIL = "zhong.z.af@m.titech.ac.jp"
-SOCIAL_MEDIA = {
-    "My GitHub": "https://github.com/Zhihua-Zhong",
-    "My Laboratory": "http://www.smp.dis.titech.ac.jp/en/"
-}
 PROJECTS = {
     "[5]. Zhong Zhihua, Hideki Takayasu, Misako Takayasu. Novel approaches to urban human mobility: a physical analogy of electric circuit network and resulting gravity relations based on GPS data": "",
     "[4]. Gao M*, Zhong Z*, Yue Y, Liu F. Correlation between glycaemic variability and prognosis in diabetic patients with CKD. Endokrynol Pol. 73(6):947-953 (2022).": "https://journals.viamedica.pl/endokrynologia_polska/article/view/EP.a2022.0092/70385",
@@ -42,7 +36,6 @@ PROJECTS = {
     "[1]. Zhong, Z., Yuan, X., Liu, S. et al. Machine learning prediction models for prognosis of critically ill patients after open-heart surgery [J]. Sci Rep 11, 3384 (2021).": "https://www.nature.com/articles/s41598-021-83020-7",
 }
 
-# --- HERO SECTION ---
 col1, col2 = st.columns([1, 2], gap="small")
 with col1:
     st.image(profile_pic, width=230)
@@ -58,20 +51,22 @@ with col2:
     )
     st.write("📫", EMAIL)
 
-# --- SOCIAL LINKS ---
+# social link section
+SOCIAL_MEDIA = {
+    "My GitHub": "https://github.com/Zhihua-Zhong",
+    "My Laboratory": "http://www.smp.dis.titech.ac.jp/en/"
+}
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
-
-# Academic article publication history
+# article publication and conference participation section
 st.write('\n')
 st.subheader("Academic Article Publication History")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
-    
 st.write('\n')
 st.subheader("Presentation on Academic Conference")
 st.write("---")
@@ -82,8 +77,7 @@ st.write(
 """
 )
 
-
-# --- SKILLS ---
+# skills section
 st.subheader("Hard Skills")
 st.write(
 """
@@ -93,7 +87,7 @@ st.write(
 """
 )
 
-# --- Qualification, Award, & Grant ---
+# grant, award, and qualification section
 st.write('\n')
 st.subheader("Grant, Award, & Qualification")
 st.write(
@@ -107,12 +101,11 @@ st.write(
 """
 )
 
-# --- ACADEMIC ARTICLE PUBLICATION HISTORY ---
+# experience section
 st.write('\n')
 st.subheader("Experience History")
 st.write("---")
-
-# --- doctoral education
+# doctoral education
 st.write("🏆", "**Doctoral education at Tokyo Institute of Technology**")
 st.write("09/2022 - Present")
 st.write(
@@ -124,7 +117,6 @@ st.write(
 - [GPA] 1. Major GPA so far: 3.8/4.5.
 """
 )
-
 # --- master's education
 st.write('\n')
 st.write("🏆", "**Master's education at Jinan University**")
@@ -139,7 +131,7 @@ st.write(
 """
 )
 
-# --- subject in charge:
+# subject section
 st.write('\n')
 st.subheader("**Subjects good at teach (担当できる科目)**")
 st.write("---")
