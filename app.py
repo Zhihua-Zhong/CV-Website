@@ -72,6 +72,9 @@ st.subheader("Presentation on Academic Conference")
 st.write("---")
 st.write(
 """
+- [5]. Novel approaches to urban science problems: human mobility description by a physical analogy of electric circuit network based on GPS data - 2, The 37th Annual Conference of the Japanese Society for Artificial Intelligence (2023/5).
+- [4]. Novel approaches to urban science problems: human mobility description by a physical analogy of electric circuit network based on GPS data - 1, The 86th National Convention of IPSJ (2024/3).
+- [3]. , Network Science 2023 (2023/12)
 - [2]. Electric circuit network description of urban human mobility based on GPS data, Physical Society of Japan (日本物理学会; 2023/9).
 - [1]. An analysis of human flow pattern based on Revised Electric Circuit Model, Statphys28 (2023/8).
 """
