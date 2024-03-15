@@ -1,6 +1,6 @@
 papers:
-  '[6, corresponding, under peer review]. Feasibility discussion of quantum cryptography for Internet of Things security: A literature review': 
-    ''
+  %'[6, corresponding, under peer review]. Feasibility discussion of quantum cryptography for Internet of Things security: A literature review': 
+  %  ''
   '[5, first, under peer review]. Zhong Zhihua, Hideki Takayasu, Misako Takayasu. Novel approaches to urban science problems: human mobility description by physical analogy of electric circuit network based on GPS data':
     ''
   '[4, co-first]. Gao M*, Zhong Z*, Yue Y, Liu F. Correlation between glycaemic variability and prognosis in diabetic patients with CKD. Endokrynol Pol. 73(6):947-953 (2022).':
@@ -16,9 +16,9 @@ presentation:
   '[5]':
     'Novel approaches to human mobility: human mobility description by a physical analogy of electric circuit network based on GPS data, The 37th Annual Conference of the Japanese Society for Artificial Intelligence (2023/5).'
   '[4]':
-    'Novel approaches to urban human mobility: a physical analogy of electric circuit network and resulting gravity relations based on GPS data, The 86th National Convention of IPSJ (2024/3).'
+    'Electric circuit network and application in the human mobility problems-part-2, The 86th National Convention of IPSJ (2024/3).'
   '[3]':
-    'Electric circuit network and application in the human mobility problems, Network Science 2023 (2023/12)'
+    'Electric circuit network and application in the human mobility problems-part-1, Network Science 2023 (2023/12)'
   '[2]':
     'Electric circuit network description of urban human mobility based on GPS data, Physical Society of Japan (2023/9).'
   '[1]':
