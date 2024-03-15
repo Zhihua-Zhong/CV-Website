@@ -44,7 +44,7 @@ with col2:
     st.write('Doctoral student at ***Tokyo Institude of Technology*** ')
     st.write('\n JSPS (DC) 日本学術振興特別研究員 ')
     st.write('\n Major: School of Computing, Artificial Intelligence')
-    st.write('\n Interested research direction: Algorithms, Information fusion, Optimization modeling (e.g. Machine/Deep/Reinforcement learning, Huristic algorithms)')
+    %st.write('\n Interested research direction: Algorithms, Information fusion, Optimization modeling (e.g. Machine/Deep/Reinforcement learning, Huristic algorithms)')
     st.download_button(
         label='📄 Download Resume',
         data=PDFbyte,
