@@ -112,8 +112,8 @@ st.write(
 '''
 - 1. [R&D] Developed a machine learning model to predict the probability of gaining a certain disease based on the biochemical data from the patients (Publication [1]). 
 - 2. [R&D] Discovered the relationship between biochemical indexes, drug, and death ratio to give people a deeper understanding of diseases in medical science (Publication [2-4]).
-- 3. [R&D] Developed a Windows 10 software for paper [1] based on C++ and Python.
-- 4. [R&D] Developed a website using Java and Python to implement real-time patient prediction for paper[1].
+- 3. [R&D] Developed a Windows 10 software for paper [1] based on C++ and Python (earned the software copyright).
+- 4. [R&D] Developed a website using Java and Python to implement real-time patient prediction for paper [1].
 - 5. [GPA] Major GPA: 88/100, top 10%.
 '''
 )
