@@ -95,11 +95,13 @@ st.write('🏆', '**Doctoral education at Tokyo Institute of Technology**')
 st.write('09/2022 - Present')
 st.write(
 '''
-- [Internship, 2023/11-2024/1] 5. Internship of company Sony: Develop a website to interact with, train the prediction model online and present the result of the data analysis.
-- [Joint Research, 2023/4-2024/1] 4. Joint Research with company Sony: Analyse the sales data of Sony’s products, such as TVs and cameras, and predict the units and price of sales to solve the supply chain problem.
-- [Presentation, 2023/9] 3. Presentation to Physical Society of Japan (日本物理学会) about 'Electric circuit network description of urban human mobility based on GPS data.'
-- [Presentation, 2023/8] 2. Presentation to Statphys28 (International academic conference) about 'An analysis of human flow pattern based on Revised Electric Circuit Model.'
-- [GPA] 1. Major GPA so far: 3.8/4.5.
+- 1.[Internship, 2023/11-Now] Internship of company Sony: Develop a website to interact with, train the prediction model online and present the result of the data analysis.
+- 2.[Joint Research, 2023/4-Now] Joint Research with company Sony: Analyse the sales data of Sony’s products, such as TVs and cameras, and predict the units and price of sales to solve the supply chain problem.
+- 3.[Presentation, 2024/3] Presentation to The 86th National Convention of Information Processing Socity of Japan (IPSJ) about 'Electric circuit network and application in the human mobility problems-part-2'.
+- 4.[Presentation, 2023/12] Presentation to Network Science 2023 about 'Electric circuit network and application in the human mobility problems-part-1'.
+- 5.[Presentation, 2023/9] Presentation to Physical Society of Japan (日本物理学会) about 'Electric circuit network description of urban human mobility based on GPS data'.
+- 6.[Presentation, 2023/8] Presentation to Statphys28 (International academic conference) about 'An analysis of human flow pattern based on Revised Electric Circuit Model'.
+- 7.[GPA] Major GPA so far: 3.8/4.5.
 '''
 )
 # --- master's education
