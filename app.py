@@ -95,13 +95,13 @@ st.write('🏆', '**Doctoral education at Tokyo Institute of Technology**')
 st.write('09/2022 - Present')
 st.write(
 '''
-- 1.[Internship, 2023/11-Now] Internship of company Sony: Develop a website to interact with, train the prediction model online and present the result of the data analysis.
-- 2.[Joint Research, 2023/4-Now] Joint Research with company Sony: Analyse the sales data of Sony’s products, such as TVs and cameras, and predict the units and price of sales to solve the supply chain problem.
-- 3.[Presentation, 2024/3] Presentation to The 86th National Convention of Information Processing Socity of Japan (IPSJ) about 'Electric circuit network and application in the human mobility problems-part-2'.
-- 4.[Presentation, 2023/12] Presentation to Network Science 2023 about 'Electric circuit network and application in the human mobility problems-part-1'.
-- 5.[Presentation, 2023/9] Presentation to Physical Society of Japan (日本物理学会) about 'Electric circuit network description of urban human mobility based on GPS data'.
-- 6.[Presentation, 2023/8] Presentation to Statphys28 (International academic conference) about 'An analysis of human flow pattern based on Revised Electric Circuit Model'.
-- 7.[GPA] Major GPA so far: 3.8/4.5.
+- 1. [Internship, 2023/11 - Present] Internship of company Sony: Develop a website to interact with, train the prediction model online and present the result of the data analysis.
+- 2. [Joint Research, 2023/4 - Present] Joint Research with company Sony: Analyse the sales data of Sony’s products, such as TVs and cameras, and predict the units and price of sales to solve the supply chain problem.
+- 3. [Presentation, 2024/3] Presentation to The 86th National Convention of Information Processing Socity of Japan (IPSJ) about 'Electric circuit network and application in the human mobility problems-part-2'.
+- 4. [Presentation, 2023/12] Presentation to Network Science 2023 about 'Electric circuit network and application in the human mobility problems-part-1'.
+- 5. [Presentation, 2023/9] Presentation to Physical Society of Japan (日本物理学会) about 'Electric circuit network description of urban human mobility based on GPS data'.
+- 6. [Presentation, 2023/8] Presentation to Statphys28 (International academic conference) about 'An analysis of human flow pattern based on Revised Electric Circuit Model'.
+- 7. [GPA] Major GPA so far: 3.8/4.5.
 '''
 )
 # --- master's education
@@ -110,11 +110,11 @@ st.write('🏆', '**Master\'s education at Jinan University**')
 st.write('09/2019 - 07/2022')
 st.write(
 '''
-- [R&D] Developed a machine learning model to predict the probability of gaining a certain disease based on the biochemical data from the patients (Publication [1]). 
-- [R&D] Discovered the relationship between biochemical indexes, drug, and death ratio to give people a deeper understanding of diseases in medical science (Publication [2-4]).
-- [R&D] Developed a Windows 10 software for paper [1] based on C++ and Python.
-- [R&D] Developed a website using Java and Python to implement real-time patient prediction for paper[1].
-- [GPA] Major GPA: 88/100, top 10%.
+- 1. [R&D] Developed a machine learning model to predict the probability of gaining a certain disease based on the biochemical data from the patients (Publication [1]). 
+- 2. [R&D] Discovered the relationship between biochemical indexes, drug, and death ratio to give people a deeper understanding of diseases in medical science (Publication [2-4]).
+- 3. [R&D] Developed a Windows 10 software for paper [1] based on C++ and Python.
+- 4. [R&D] Developed a website using Java and Python to implement real-time patient prediction for paper[1].
+- 5. [GPA] Major GPA: 88/100, top 10%.
 '''
 )
 
@@ -124,8 +124,8 @@ st.write('---')
 st.write(
         '''
         - 💻 Programming: Python (Scikit-learn, Pandas, Streamlit), Java (Spring)
-        - 📚 Speciality: Algorithm, including: Machine learning, Deep learning, and Statistics
-        - 🗄️ Databases: Postgres, MySQL
+        - 📚 Speciality: Algorithm (Machine/deep learning), Optimization modelling (Heuristic algorithm)
+        - 🗄️ Databases: PostgresSQL
         '''
         )
 
