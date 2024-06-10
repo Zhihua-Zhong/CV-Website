@@ -130,7 +130,7 @@ st.write(
 
 # subject section
 st.write('\n')
-st.subheader('**Subjects good at teach**')
+st.subheader('**Subjects capable to teach**')
 st.write('---')
 st.write(
 '''
