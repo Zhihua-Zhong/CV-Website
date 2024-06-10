@@ -40,9 +40,10 @@ col1, col2 = st.columns([1, 2], gap='small')
 with col1:
     st.image(profile_pic, width=230)
 with col2:
-    st.title(name)
+    st.title(Zhihua Zhong)
+    st.title(鍾　志華)
     st.write('Doctoral student at ***Tokyo Institude of Technology*** ')
-    st.write('\n JSPS (DC) 日本学術振興特別研究員 ')
+    st.write('\n JSPS (DC2) 日本学術振興特別研究員 ')
     st.write('\n Major: School of Computing, Artificial Intelligence')
     #st.write('\n Interested research direction: Algorithms, Information fusion, Optimization modeling (e.g. Machine/Deep/Reinforcement learning, Huristic algorithms)')
     st.download_button(
