@@ -123,8 +123,8 @@ st.subheader("Interests")
 st.write('---')
 st.write(
         '''
-        - 💻 Programming: Python (Scikit-learn, Pandas, Streamlit), Java (Spring)
-        - 📚 Speciality: Algorithm, Optimization modelling
+        - 💻 Programming: Python (Scikit-learn, Pandas, Streamlit), Java (Spring).
+        - 📚 Speciality: Algorithm, Optimization modelling.
         '''
         )
 
