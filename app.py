@@ -92,7 +92,7 @@ st.write('\n')
 st.subheader('Experience History')
 st.write('---')
 # doctoral education
-st.write('🏆', '**Doctoral education at Tokyo Institute of Technology**')
+st.write(':sports_medal:', '**Doctoral education at Tokyo Institute of Technology**')
 st.write('09/2022 - Present')
 st.write(
 '''
@@ -107,7 +107,7 @@ st.write(
 )
 # --- master's education
 st.write('\n')
-st.write('🏆', '**Master\'s education at Jinan University**')
+st.write(':sports_medal:', '**Master\'s education at Jinan University**')
 st.write('09/2019 - 07/2022')
 st.write(
 '''
