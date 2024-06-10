@@ -1,7 +1,7 @@
 papers:
-  '[6, first, writing the paper]. Zhong Zhihua, Hideki Takayasu, Misako Takayasu. Renormalization method on human mobility resulted in scale invariance and a new type of gravity relation based on RECM':
+  '[6, first, writing]. Zhong Zhihua, Hideki Takayasu, Misako Takayasu. Renormalization method on human mobility resulted in scale invariance and a new type of gravity relation based on RECM':
     ''
-  '[5, first, under peer review]. Z. Zhong, H. Tayakasu, and M. Takayasu, Novel approaches to urban science problems: human mobility description by physical analogy of electric circuit network based on gps data (2024), arXiv:2403.19988 [physics.soc- ph].':
+  '[5, first]. Z. Zhong, H. Tayakasu, and M. Takayasu, Human mobility description by physical analogy of electric circuit network based on gps data (2024), arXiv:2403.19988 [physics.soc- ph].':
     'https://arxiv.org/abs/2403.19988'
   '[4, co-first]. Gao M*, Zhong Z*, Yue Y, Liu F. Correlation between glycaemic variability and prognosis in diabetic patients with CKD. Endokrynol Pol. 73(6):947-953 (2022).':
     'https://journals.viamedica.pl/endokrynologia_polska/article/view/EP.a2022.0092/70385'
@@ -13,7 +13,9 @@ papers:
     'https://www.nature.com/articles/s41598-021-83020-7'
 
 presentation:
-  '[5, coming]':
+　'[6, coming]':
+    'Renormalization method for human flow based on electric circuit model, Physical Society of Japan (2024/9).'
+  '[5]':
     'Novel approaches to human mobility: human mobility description by a physical analogy of electric circuit network based on GPS data, The 37th Annual Conference of the Japanese Society for Artificial Intelligence (2024/5).'
   '[4]':
     'Electric circuit network and application in the human mobility problems-part-2, The 86th National Convention of Information Processing Socity of Japan (IPSJ) (2024/3).'
