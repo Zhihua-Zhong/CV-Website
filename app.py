@@ -71,7 +71,7 @@ for project, link in papers_dict.items():
 st.write('\n')
 
 # conference presentation
-st.subheader('Presentation on Academic Conference')
+st.subheader('Oral Presentation on Academic Conference')
 st.write('---')
 presentation_dict = achievements_yml['presentation']
 for index, conference in presentation_dict.items():
