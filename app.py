@@ -40,8 +40,7 @@ col1, col2 = st.columns([1, 2], gap='small')
 with col1:
     st.image(profile_pic, width=230)
 with col2:
-    st.title('Zhihua Zhong')
-    st.title('鍾　志華')
+    st.subtitle(name)
     st.write('Doctoral student at ***Tokyo Institude of Technology*** ')
     st.write('\n JSPS (DC2) 日本学術振興特別研究員 ')
     st.write('\n Major: School of Computing, Artificial Intelligence')
@@ -125,7 +124,7 @@ st.write('---')
 st.write(
         '''
         - 💻 Programming: Python (Scikit-learn, Pandas, Streamlit), Java (Spring).
-        - 📚 Speciality: Algorithm, Optimization modelling.
+        - 📚 Speciality: Algorithm, Optimization Modelling.
         '''
         )
 
