@@ -119,13 +119,12 @@ st.write(
 )
 
 # hard skill
-st.subheader("Hard Skills")
+st.subheader("Interests")
 st.write('---')
 st.write(
         '''
         - 💻 Programming: Python (Scikit-learn, Pandas, Streamlit), Java (Spring)
-        - 📚 Speciality: Algorithm (Machine/deep learning), Optimization modelling (Heuristic algorithm)
-        - 🗄️ Databases: PostgresSQL
+        - 📚 Speciality: Algorithm, Optimization modelling
         '''
         )
 
@@ -135,7 +134,7 @@ st.subheader('**Subjects good at teach**')
 st.write('---')
 st.write(
 '''
-1. Mathematics series: Calculus, Linear Algebra, and Statistics. 
-2. Computer Science series: Python Programming, Java Programming, Data Structure and Algorithm, Database, and Machine Learning.)
+1. Regarding Mathematics: Calculus, Linear Algebra, and Statistics. 
+2. Regarding Computer Science: Python Programming, Java Programming, Data Structure and Algorithm, Database, and Machine Learning).
 '''
 )
