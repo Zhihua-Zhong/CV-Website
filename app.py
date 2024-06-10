@@ -135,6 +135,6 @@ st.write('---')
 st.write(
 '''
 1. Regarding Mathematics: Calculus, Linear Algebra, and Statistics. 
-2. Regarding Computer Science: Python Programming, Java Programming, Data Structure and Algorithm, Database, and Machine Learning).
+2. Regarding Computer Science: Python Programming, Data Structure and Algorithm, Database, and Machine Learning.
 '''
 )
